@@ -1,6 +1,6 @@
-# Assignment Three - Vector Library (Integers)
+## Week 5 and 6 Assignment: Vector Library (Integers)
 
-## Overview
+### Overview
 
 A Vector is a resizable dynamic array that store elements of the same type. Similar to an ArrayList in the Java language,  the vector dynamically expands to allow additional elements to be added to the Vector.  The vector needs to manage the size and allocation of memory to allow the addition of more elements so the programmer does not have to manage the memory for the Vector.  The Vector can be defined as a struct with three fields, the number of elements allocated, the number of elements used, and a pointer to the contiguous memory for the storage of the elements. (See figure below)
 
@@ -8,7 +8,7 @@ A Vector is a resizable dynamic array that store elements of the same type. Simi
 
 Your assignment for this problem set is to create a **reusable Vector Library** to create, manage, and manipulate **integers only**. (growable integer arrays)  The Vectors of Integers could be used in place of regular integer arrays.
 
-## Function Descriptions
+### Function Descriptions
 
 **Vector vectorNew(int size)**
 
@@ -66,7 +66,7 @@ Returns the length/number of locations used in the vector.  The parameter Vector
 
 ---
 
-## Assignment
+### Instructions
 
 1. Design and implement all of the functions in the library.
 2. Write a test program/script to test your library functions.
